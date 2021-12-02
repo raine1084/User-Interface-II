@@ -1,1 +1,47 @@
 /* Add CSS styling here */
+/*
+
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+max-width: 100%;
+border: 1px solid grey;
+*/
+header{
+    background-color:blueviolet;
+}
+
+h2{
+
+    font-size: 62.5;
+    width: 20%;
+    color: yellow;
+    background-color: black;
+    background: teal;
+
+}
+
+nav a{
+    text-align: left;
+    color: black;
+    border: 2px solid black;
+}
+img{
+    display: flex;
+    
+    width:30%;
+}
+.img{
+    width: 30%;
+}
+
+.bg-img{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+
+}
+.pics{
+    width:30%
+}
+
