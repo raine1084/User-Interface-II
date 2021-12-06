@@ -1,1 +1,129 @@
 /* Add CSS styling here */
+/*
+
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+max-width: 100%;
+border: 1px solid grey;
+*/
+header{
+    background-color:blueviolet;
+}
+
+h2{
+
+    font-size: 62.5;
+    width: 20%;
+    color: yellow;
+    background-color: black;
+    background: teal;
+
+}
+
+nav a{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    
+    color: black;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-around;
+    
+}
+links:hover{
+    backgound-color: orange;
+}
+
+img{
+width: 30%;
+
+
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: violet;
+    
+}
+
+.top{
+    background-color:crimson;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.bg-img{
+display: flex;
+justify-content: center;
+    width: 100%;
+    height: 300%;
+    margin-top: 5%;
+    
+}
+.middle{
+    height: 200px;
+    display: flex;
+    
+}
+button{
+    border: 2px solid pink;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.pics{
+    display: flex;
+    justify-content: space-around;
+    width:50%;
+    
+    
+    
+}
+.bottom{
+    display: flex;
+    justify-content: flex-start;
+}
+.bottom-pics{
+    width: 50%;
+    display: flex;
+    justify-content: row;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+    width: 45%;
+    
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
+@media(max-width: 800px) {
+    .bg-img{
+        width: 100%;
+    }
+    .pics{
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .pics{
+        width: 100%;
+    }
+    .bottom-pics{
+        width: 100%
+        }
+}
