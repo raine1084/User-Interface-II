@@ -33,9 +33,10 @@ nav a{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    justify-content: space-around;
     
 }
-nav:hover{
+links:hover{
     backgound-color: orange;
 }
 
@@ -60,10 +61,9 @@ h1{
 display: flex;
 justify-content: center;
     width: 100%;
-    height: 300px;
+    height: 300%;
+    margin-top: 5%;
     
-    
-
 }
 .middle{
     height: 200px;
@@ -74,6 +74,8 @@ button{
     border: 2px solid pink;
     display: flex;
     justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
     
 }
 .pics{
@@ -100,4 +102,12 @@ button{
     display: flex;
     justify-content: center;
     color: purple;
+}
+@media(max-width: 800px) {
+    .bg-img{
+        width: 100%;
+    }
+    .pics{
+        width: 100%;
+    }
 }
